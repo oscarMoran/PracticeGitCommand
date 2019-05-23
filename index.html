@@ -19,22 +19,17 @@
     </head>
     <body>
         <section id="header">
-            <header>
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-                </ul>
-            </header>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                  <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+                </label>
+                <label class="btn btn-secondary">
+                  <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+                </label>
+              </div>
         </section>
         <section class="container">
             <h1 class="text-center">Hello World</h1>
